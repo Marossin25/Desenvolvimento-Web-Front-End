@@ -1,0 +1,71 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;     /* Tipografia */
+    font-size: 18px;                    /* Tamanho do texto */
+    background-color: #f2f2f2;          /* Fundo da página */
+    margin: 0;
+    padding: 0;
+    color: #333;                        /* Cor do texto */
+}
+
+/* Cabeçalho */
+#area-cabecalho {
+    background: #f00b89;
+    color: rgb(22, 2, 2);
+    text-align: center;                 /* Alinhamento */
+    padding: 20px;                      /* Espaçamento interno */
+    margin-bottom: 20px;                /* Espaço abaixo */
+}
+
+#area-menu a {
+    color: #3d13fc;
+    text-decoration: none;
+    font-weight: bold;                  /* Espessura da fonte */
+    margin: 0 10px;                     /* Espaço entre links */
+}
+
+#area-menu a:hover {
+    text-decoration: underline;
+}
+
+/* Área principal */
+#area-principal {
+    background: white;                  /* Fundo da área */
+    padding: 20px;                      /* Espaçamento interno */
+    margin: 20px;                       /* Espaço externo */
+    border: 1px solid #ccc;             /* Borda */
+    border-radius: 10px;                /* Arredondamento */
+}
+
+/* Títulos */
+h2, h3, h4 {
+    color: #dd4ae2;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+/* Imagem */
+img {
+    display: block;
+    margin: 20px auto;                  /* Centralizar imagem */
+    border: 2px solid #844ae2;          /* Exemplo usando borda */
+    border-radius: 10px;
+}
+
+/* Parágrafos */
+p {
+    text-align: justify;                /* Alinha texto */
+    line-height: 1.6;
+}
+
+/* Listas */
+ul li, ol li {
+    margin: 8px 0;                      /* Espaço entre itens */
+}
+
+/* Link final */
+a {
+    font-weight: bold;
+    color: #1927e7;
+}
